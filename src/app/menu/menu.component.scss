@@ -9,6 +9,7 @@ header {
     padding-left: 80px;
     padding-right: 80px;
     padding-top: 20px;
+    padding-bottom: 20px;
     align-items: center;
     z-index: 1;
     a {
@@ -21,4 +22,19 @@ header {
             color: rgba(255, 255, 255, 0.8);
         }
     }
+}
+
+.darkLinks {
+    a {
+        color: black;
+        
+        &:hover {
+            color: rgba(0, 0, 0, 0.5);
+        }
+    }
+}
+
+.headerDark {
+    background-color: white;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
 }
